@@ -136,7 +136,7 @@ distinct triggers degrades each. `principles.md` §2 uses the direction, not the
 
 ## Deliberately not cited
 
-The seed document this node grew from (see `information-population-plan.md` §2) is
-unsourced LLM prose and is **not a source**. Several of its confident figures are not
-traceable to any study — the success-rate table by number of simultaneous habits most of
-all. See `open-questions.md` §1.
+The seed document this node grew from (see `DAFNE.md`, "Contributing") is unsourced LLM
+prose and is **not a source**. Several of its confident figures are not traceable to any
+study — the success-rate table by number of simultaneous habits most of all. See
+`open-questions.md` §1.

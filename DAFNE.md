@@ -21,7 +21,6 @@ Start with `./principles.md`. It is the stance everything else serves, and it is
 | `./sources.md` | What each claim rests on, graded A–F, including which popular claims fail. Consult before repeating any mechanism as fact. |
 | `./protocols/` | Reusable procedure templates. `single-target-sprint.md` (one active target + catch-log) and `delay-rule.md` (forced interception without willpower). |
 | `./open-questions.md` | What is genuinely unresolved, and where the seed material was invented. |
-| `./information-population-plan.md` | How this node came to be filled, and what deliberately stays out. Read before adding anything. |
 
 ## No memory bank — load-bearing, not incidental
 
@@ -44,7 +43,20 @@ a layered prompt, but it is one use of the relationship, not its definition.
 Anticipated siblings, none yet existing: compulsive-use patterns, attention/doomscrolling,
 reactive anger, impulse inhibition.
 
-## Editing this node
+## Contributing
 
-Several working copies exist (one per consumer) and none is canonical — `origin` is. The
-commit → push → bump-the-pointer sequence is in `information-population-plan.md` §3.
+**The seed source.** This node grew from an unversioned local PDF of a personal LLM
+conversation (`$DIOTIMA_GARDEN/neuroplasticity.pdf`). Two rules survive it: it is a source
+of *hypotheses, not facts* — its confident figures are unsourced prose and several are
+untraceable (`open-questions.md` §1) — and it is personal, so it stays out of this public
+repo. Extract generic mechanism only; never quote it or copy a name, situation or example.
+
+**What deliberately stays out.** Textbook restatement (any model reading this already
+knows the general neuroscience — weight this node toward *curation*: which claims survived
+scrutiny, which were discarded and why). Practice logs and personal evidence (no bank, by
+design — see above). Anything identifying.
+
+**Mechanics.** Several working copies exist (one per consumer) and none is canonical —
+`origin` is. Finishing means: commit on `main`, push, then in each consuming grove
+`git submodule update --remote parents/behavior-rewiring` and commit the pointer. Stopping
+inside a submodule checkout leaves the work invisible to everyone else.
