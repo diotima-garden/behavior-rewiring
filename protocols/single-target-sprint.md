@@ -46,6 +46,22 @@ Reject the target if any of these is true:
   *recognition* — log the cue, change nothing. That is a legitimate sprint and often the
   right first one.
 
+**Check that detection is actually missing before spending a sprint on it.** This protocol
+used to recommend a recognition-only first sprint by default, and the first consumer to
+instantiate it found the recommendation wrong for its own case: the practitioner was
+already detecting the cue several times per conversation and already substituting a
+response. A recognition sprint would have trained a trained capacity and produced a clean
+log that meant nothing. Ask first — *when this happens, do you know it at the time?* — and
+reserve recognition-only for a genuine no.
+
+What that case left unknown was finer, and is the better target when detection is already
+present: **whether a non-response is a decision or an avoidance.** Those look identical
+from outside and usually from inside. Do not ask for that judgment in the moment — the
+adjudication competes with the conversation, and `open-questions.md` §4 warns the
+in-the-moment markers flatter the practitioner. Count at the time, sort later, and
+discriminate on **residue** — still bothering you hours afterwards — rather than on how
+effortful it felt.
+
 Selection heuristic when several candidates compete: prefer the cue that genuinely occurs
 *upstream of* several behaviors you want changed. State the shared cue out loud. Do not
 reach for "train my general impulse control" instead — that is the one approach the
