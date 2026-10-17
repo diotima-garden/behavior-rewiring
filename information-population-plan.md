@@ -4,6 +4,12 @@
 but this file and `DAFNE.md`. Intended to be executed in its own context window — it
 assumes no knowledge of the session that created it.*
 
+> **Executed 2026-10-17.** §3's build order is history: `principles.md`, `sources.md`,
+> `protocols/` and `open-questions.md` all exist — read them rather than rebuilding them.
+> What stays live here is §2 (the seed source and its two hard rules), §3's
+> multi-checkout warning, §4 (what stays out), and §5. Adding to this node still means
+> reading those first.
+
 ---
 
 ## 1. What this node is for
@@ -98,9 +104,9 @@ Work in this order; stop when it's useful rather than when it's complete.
   and why, what applies to this specific person's profile. Cite mechanism; don't
   re-explain it.
 - **Practice logs, session history, personal evidence.** This node carries no memory
-  bank, by design — `DAFNE.md` explains why (a bank here would be discovered and written
-  into by every child grove). Longitudinal records live in the grove that owns the
-  practice.
+  bank, by design: `manifest.py:discover_banks` recurses into `parents/`, so a bank here
+  would be read and written by every child grove's sessions. Longitudinal records live in
+  the grove that owns the practice.
 - **Anything identifying.** See §2.2. The repo is public.
 
 ## 5. How children use what's built here

@@ -56,11 +56,12 @@ insensitive to short-term goal changes. This is the basis for `principles.md` §
 why a trait-level target is not a target.
 
 **Time to automaticity — B.** Lally et al. (2010), 96 participants adopting a daily
-behavior over 12 weeks: median ~**66 days** to reach the modeled automaticity plateau,
-individual range ~**18–254 days**, with simple behaviors fast and effortful ones taking
-months. Treat 66 as a median for *easy* daily acts in a *fixed* context — generous
-conditions relative to social interception. The range is the finding; the median is the
-part that got famous.
+behavior over 12 weeks: median ~**66 days** to reach 95% of a modeled automaticity
+plateau, individual range ~**18–254 days**, with simple behaviors fast and effortful ones
+taking months. Two softeners the famous number usually sheds: the median comes from the
+**39 participants whose curves fit the model** (82 of 96 gave analysable data at all), and
+the behaviors were easy daily acts in a fixed context — generous conditions relative to
+social interception. The range is the finding; the median is the part that got famous.
 
 **Sleep consolidation — B, with the mechanism downgraded.** Sleep-dependent consolidation
 of procedural/motor skill is well established (Walker & Stickgold, *Annu. Rev. Psychol.*
@@ -82,12 +83,22 @@ spillover exists — e.g. new exercise routines coinciding with reduced smoking 
 in small longitudinal samples — so the phenomenon is not empty, just unquantified.
 
 **Training the faculty — F.** This is the decisive finding. Lab training of general
-response inhibition improves the trained task and does not transfer: a second-order
-meta-analysis found no transfer to any behavior beyond the trained task across populations
-and paradigms; Enge et al. (*JEP:LMC*, 2014) found no true training or transfer effects in
-healthy adults; a domain-general cognitive-control training trial in children (*Nature
-Neuroscience*, 2024) changed neither brain nor behavior; and inhibitory-control training
-aimed at unhealthy behaviors shows no significant short- or long-term behavioral benefit.
+response inhibition improves the trained task and does not transfer:
+
+- Enge et al., *JEP: Learning, Memory & Cognition* (2014) — no true training *or* transfer
+  effects from inhibitory-control training in healthy young adults; the adaptive group
+  improved on the task but did not differ from an active control at post-test or
+  follow-up.
+- A domain-general cognitive-control training trial in children (*Nature Neuroscience*,
+  2024) changed neither brain nor behavior.
+- Inhibitory-control training aimed at unhealthy behaviors: no significant short- or
+  long-term behavioral benefit versus control.
+- The wider pattern it sits in: Sala et al., "Near and Far Transfer in Cognitive
+  Training: A Second-Order Meta-Analysis," *Collabra: Psychology* 5(1):18 (2019) — 14
+  independent meta-analyses, ~22,000 participants, near transfer real but far transfer
+  negligible-to-null once placebo and publication bias are handled. Note this covers
+  cognitive training broadly (working memory, music, chess, video games), not inhibition
+  specifically; it is the prior, while the three entries above are the direct evidence.
 
 **Ruling for this node:** keep "one change with wide reach" as a *selection heuristic* —
 prefer a cue that genuinely precedes several behaviors — and discard "train inhibition in

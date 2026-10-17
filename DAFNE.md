@@ -26,10 +26,10 @@ Start with `./principles.md`. It is the stance everything else serves, and it is
 ## No memory bank — load-bearing, not incidental
 
 This node declares no `banks:`, so it is a bare node and not a grove. That is deliberate:
-bank discovery recurses into `parents/`, so a bank here would be read and written by every
-child grove's sessions — a shared write surface across unrelated personal practices.
-Practice logs stay in the grove that owns the practice. Full rationale:
-`information-population-plan.md` §4.
+`manifest.py:discover_banks` recurses into `parents/`, so a bank declared here would be
+discovered, read at orientation, and written into by **every** child grove's sessions — a
+shared write surface across unrelated personal practices. Practice logs stay in the grove
+that owns the practice.
 
 ## How children use it
 
@@ -46,7 +46,5 @@ reactive anger, impulse inhibition.
 
 ## Editing this node
 
-It is mounted as a `parents/` submodule by each consumer, so several working copies exist
-and none is canonical — `origin` is. Finishing means: commit on `main`, push, then in each
-consuming grove `git submodule update --remote parents/behavior-rewiring` and commit the
-pointer. Stopping inside a submodule checkout leaves the work invisible to everyone else.
+Several working copies exist (one per consumer) and none is canonical — `origin` is. The
+commit → push → bump-the-pointer sequence is in `information-population-plan.md` §3.
