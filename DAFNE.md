@@ -5,45 +5,48 @@ requires: []
 
 # behavior-rewiring — base node for deliberate behavior change
 
-A bare DAFNE node: no memory, therefore not a grove. No parents.
+The shared base for practice groves that train **procedural** change — replacing an
+automatic behavior with a different one. It answers one question for all of them: how an
+understood intention becomes an automatic behavior, and how much of that can be run at
+once. It holds theory, evidence grades, and reusable protocols; it holds no practice and
+no logs.
 
-The shared base for practice groves that train *procedural* change — replacing an
-automatic behavior with a different one. Holds the theory, the sources, and the
-curation decisions those groves draw on; holds no practice and no logs of its own.
+Start with `./principles.md`. It is the stance everything else serves, and it is short.
 
-**Status: near-empty by design.** Only this manifest and the population plan exist.
-See `./information-population-plan.md` — populating this node is its own task, run in
-its own context.
+## Files
 
 | File | What |
 |---|---|
-| `./information-population-plan.md` | How this node gets filled: sources to mine, the structure to grow into, and what deliberately stays out. Read this before adding anything here. |
+| `./principles.md` | The stance a child grove designs against. Opinionated, drill-agnostic. **Read first.** |
+| `./sources.md` | What each claim rests on, graded A–F, including which popular claims fail. Consult before repeating any mechanism as fact. |
+| `./protocols/` | Reusable procedure templates. `single-target-sprint.md` (one active target + catch-log) and `delay-rule.md` (forced interception without willpower). |
+| `./open-questions.md` | What is genuinely unresolved, and where the seed material was invented. |
+| `./information-population-plan.md` | How this node came to be filled, and what deliberately stays out. Read before adding anything. |
 
-## Why this is a base node and not a grove
+## No memory bank — load-bearing, not incidental
 
-Grove-ness is structural — a node carrying memory. This node deliberately carries
-none, and that is load-bearing rather than incidental: `manifest.py:discover_banks`
-recurses into `parents/`, so a bank declared here would be discovered, read at
-orientation, and written into by **every** child grove's sessions. Since the intended
-children are personal-practice groves, a bank here would be a shared write surface
-across all of them. Practice logs stay in the grove that owns the practice.
+This node declares no `banks:`, so it is a bare node and not a grove. That is deliberate:
+bank discovery recurses into `parents/`, so a bank here would be read and written by every
+child grove's sessions — a shared write surface across unrelated personal practices.
+Practice logs stay in the grove that owns the practice. Full rationale:
+`information-population-plan.md` §4.
 
-## How children consume this node
+## How children use it
 
-By **reading**, primarily. A child mounts this node at `parents/behavior-rewiring/`
-and its sessions refer to these files directly — same pattern as `language`'s
-`queue-policy.md`, which is deliberately never `#include`d and read in place.
-
-`#include ./parents/behavior-rewiring/...` is available for children that compile a
-layered prompt, but it is one use of the relationship, not its definition and not a
-prerequisite for mounting.
-
-## Children
+Mount at `parents/behavior-rewiring/` and **read these files in place**. The relationship
+is semantic reference, not compilation — `#include` is available for a grove that compiles
+a layered prompt, but it is one use of the relationship, not its definition.
 
 | Grove | Relationship |
 |---|---|
-| `social-dynamics` | First consumer. Frame-control and boundary drills; its `improvement-plan.md` item #4 (the leak-log) is the seam where this node's theory becomes a real-world rep loop. |
+| `social-dynamics` | First consumer. Frame-control and boundary drills; its `improvement-plan.md` item #4 (the leak-log) is where this node's theory becomes a real-world rep loop. |
 
-Anticipated siblings — one grove per practice, each with its own intake, drills, and
-log: compulsive-use patterns, attention/doomscrolling, reactive anger, impulse
-inhibition. None exist yet; this table grows as they do.
+Anticipated siblings, none yet existing: compulsive-use patterns, attention/doomscrolling,
+reactive anger, impulse inhibition.
+
+## Editing this node
+
+It is mounted as a `parents/` submodule by each consumer, so several working copies exist
+and none is canonical — `origin` is. Finishing means: commit on `main`, push, then in each
+consuming grove `git submodule update --remote parents/behavior-rewiring` and commit the
+pointer. Stopping inside a submodule checkout leaves the work invisible to everyone else.
