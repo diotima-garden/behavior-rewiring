@@ -1,5 +1,17 @@
 # Principles — Behavior Rewiring
 
+**In plain terms, before the rest of this file.** This node is about things you *do* that
+you could learn to catch yourself about to do. Not what you know, not what you feel —
+what comes out of you in a moment you can learn to notice. Everything below follows from
+that: a target has to name a moment and a thing you do in it, understanding the pattern
+changes nothing on its own, and the only honest measure of progress is the number of
+times the old response was about to fire and a different one went out instead. If a goal
+can't be written as "when *this specific thing happens*, I *do this specific thing*," it
+isn't a target for this node — see the scope block below for the three ways that usually
+goes wrong.
+
+---
+
 The durable stance a practice grove can design against. Drill-agnostic, opinionated, and
 short on mechanism: evidence grades and the places popular accounts overreach live in
 `sources.md`, unresolved bets in `open-questions.md`.
