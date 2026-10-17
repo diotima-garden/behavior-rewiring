@@ -8,6 +8,8 @@ entry that says "this is folklore" is worth as much as one that says "this repli
 disputed. **B** — real literature, real effect, contested magnitude or scope.
 **C** — single studies / indirect evidence; use as a frame, not a fact.
 **F** — popular claim that does not survive contact with the literature.
+Intermediate grades (**A-**, **D**) appear where a claim sits between two of these; the
+body text always says which way it leans and why.
 
 ---
 
@@ -226,6 +228,83 @@ is.
 The wider point for siblings: before mounting this node on a target, check whether that
 target has a treatment literature of its own. Where one exists, this node is the second
 thing to read, not the first.
+
+## 10. Changing what you feel: the appraisal stage — **B for the mechanism, C for our case**
+
+Not a claim in `principles.md` but a boundary stated there — "not a route to changing what
+you feel," in the scope block. This entry grades what sits on the other side of that
+boundary, so the exclusion reads as a decision rather than an assumption.
+
+**The frame.** Gross's process model treats an emotion as a timeline — situation,
+attention, appraisal, response — open to intervention at any stage. This node's
+active/passive split is that timeline with the middle removed: passive supports are
+situation selection and modification, active interception is response modulation, and
+**appraisal is the stage the split has no name for**. It is the one intervention point
+that is cue-bound and trainable like an active target while changing what the cue *means*
+rather than what gets emitted.
+
+**If-then anchors reach it, and they move experience — B.** The §2 lever aimed one stage
+upstream touches the felt state, dimension by dimension. Schweiger Gallo, McCulloch &
+Gollwitzer, *Social Cognition* 30(1) (2012): an appraisal-level anchor ("And if I see
+blood, then I will take the perspective of a physician!") lowered rated **unpleasantness**
+while leaving **arousal** unchanged; a response-level anchor ("...then I will stay calm and
+relaxed!") lowered **arousal** while leaving **valence** unchanged. Each plan moved only
+the dimension it was aimed at. The earlier Schweiger Gallo, Keil, McCulloch, Rockstroh &
+Gollwitzer, *JPSP* 96(1) (2009), found the upstream variant also reduced the P1 component
+around 100 ms post-stimulus — acting before elaboration rather than after it.
+
+Downgraded from §2's **A** for the usual reasons: IAPS picture paradigms, single session,
+modest samples, self-report primary (the 2009 authors flag this themselves), no durability
+test, no social stakes. The mechanism is this node's best-evidenced one; this application
+of it is not.
+
+**Effect sizes for appraisal work generally — B.** Webb, Miles & Sheeran, *Psychological
+Bulletin* 138(4) (2012), 306 experimental comparisons: reappraising the stimulus
+**d+ ≈ 0.36**, perspective-taking **d+ ≈ 0.45**, reappraising one's own response
+**d+ ≈ 0.23**. Real, modest. Lab-to-daily-life transfer is contested in exactly the way §5
+describes for simulation — guided reappraisal in a session does not reliably become
+spontaneous reappraisal in the field. Same acquisition/performance seam, one stage upstream.
+
+**The response-stage cost worth knowing — B.** Butler et al., *Emotion* 3(1) (2003):
+*expressive* suppression during dyadic conversation disrupted communication, reduced
+rapport, inhibited relationship formation, and raised blood pressure in the **partner**,
+not only the suppressor; it also degrades memory for what was said. This is a hazard
+specific to response-stage regulation done one particular way — feel it, emit nothing — and
+not a charge against interception as such, which specifies a replacement rather than a
+blank. Diagnostic for a consuming grove: when a trained response comes out cold or clipped,
+suspect suppression underneath it rather than a missing skill.
+
+**Ruling.** Appraisal is admissible as a target *in this node's own form* — cue-bound,
+if-then, one line — and inadmissible in the form the scope block rejects. "When [cue], then
+[appraisal move]" is a target. "Feel less jealous" is not, for the §3 reason, unchanged.
+The stronger argument against pursuing the felt state as a *goal* is measurement rather
+than mechanism: see `open-questions.md` §4.
+
+## 11. Extinction, and whether anything is ever erased — **A- for the model, D for reconsolidation**
+
+**Inhibitory learning — A-.** The cleanest case of a felt response changing with no
+behavioral substitution involved is extinction: repeated contact with the cue absent the
+feared outcome. The modern account (Craske, Treanor, Conway, Zbozinek & Vervliet,
+*Behaviour Research and Therapy* 58 (2014), "Maximizing exposure therapy: an inhibitory
+learning approach") holds that the original association is **not erased** — a new,
+competing non-threat association is learned and outcompetes it. The evidence is the
+return-of-fear phenomena the model predicts: spontaneous recovery, context renewal,
+reinstatement, rapid reacquisition.
+
+**Why this node cares:** it is a partial answer to `open-questions.md` §4. If the
+best-evidenced model of the nearest mechanism says the old association survives and is
+outcompeted rather than overwritten, then "managed versus rewired" is likely a false
+binary, and a response returning after a context change is what the model predicts rather
+than evidence the work failed. Carried as the working picture, not as settled for social
+cues — this corpus is fear conditioning and clinical exposure, and §4's domain-transfer
+caution applies here as much as anywhere else in this file.
+
+**Reconsolidation updating — D.** The one paradigm claiming genuine rewriting of the
+original memory — retrieval followed by extinction inside a roughly 10-minute window, the
+Monfils/Schiller line — has a poor human replication record: follow-ups using
+fear-potentiated startle, skin conductance and US-expectancy failed to prevent return of
+fear, and a 2024 review exists specifically to account for the failures. Promising
+mechanism, unreliable effect. Do not build a protocol on it.
 
 ---
 

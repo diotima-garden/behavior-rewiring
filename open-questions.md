@@ -77,6 +77,27 @@ too early, and one that demands a felt absence of the urge may never let anythin
 banked. `protocols/single-target-sprint.md` §6 currently rules on *automaticity at low
 load*, which is a compromise rather than an answer.
 
+**Partial answer, graded in (2026-10): the binary is probably false.** `sources.md` §11 —
+the inhibitory-learning account of extinction (**A-**) holds that the original association
+is never erased; a competing association is learned and outcompetes it, which is why
+spontaneous recovery, context renewal, reinstatement and rapid reacquisition all exist.
+If that is the shape of the mechanism, "managed versus rewired" is not a line to locate.
+There is one association being outcompeted by another, and which one wins is
+context-dependent. Practical consequences: a response returning after a context change is
+the model's prediction rather than evidence the work failed, and the absence of a felt urge
+was never the thing a sprint could promise. The caveat is domain transfer, the standing
+one in this node — that corpus is fear conditioning and clinical exposure, not social cues.
+
+**What stays open after that.** Whether the ruling in
+`protocols/single-target-sprint.md` §6 should change — automaticity at low load remains a
+practical stopping rule, and the inhibitory-learning picture arguably *supports* it by
+removing the stricter alternative, but nothing here tests the rule itself. Also still open:
+whether any introspective marker survives. The measurement problem is in fact sharpened,
+not solved: both ACT and the inhibitory-learning version of exposure deliberately drop
+feeling-change as the treatment goal, which is converging evidence that making the felt
+state the success metric corrupts the measure — the one quantity the practitioner judges
+least honestly.
+
 ## 5. What about the timeline for a whole pattern, not one behavior?
 
 Lally's ~66-day median (range 18–254) is for **one simple daily act in a stable context**
