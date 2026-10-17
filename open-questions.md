@@ -27,6 +27,17 @@ model predicts this, and nothing here tests it. **The grove's own catch-logs are
 data we will ever have on it.** If a grove ever runs two cleanly separated targets and logs
 both, that is worth recording here.
 
+**First field observation (2026-10, uninstrumented).** A consumer practising interception
+in one interpersonal-pressure context reports improved detection in a second such context
+without any training targeted at the second. That is what `principles.md` §3 predicts when
+the two situations share a cue class — a line is crossed and accommodation is expected —
+and it is *not* evidence for a strengthened general faculty, which `sources.md` §4 rules
+out. The distinction matters because it is testable in opposite directions: a shared cue
+predicts transfer only to contexts carrying that cue, a general faculty predicts transfer
+anywhere. One self-reported case with no log behind it, recorded so the next one can be
+compared against it. **Relatedly open:** whether cue-class spillover costs any detection
+budget at all, or whether it is free.
+
 ## 2. Does a text simulator transfer at all?
 
 The mechanism (rehearsal → graded exposure → real reps) is well evidenced; LLM-graded text

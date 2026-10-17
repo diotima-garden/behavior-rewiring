@@ -7,6 +7,21 @@ short on mechanism: evidence grades and the places popular accounts overreach li
 The question this node exists to answer well: **how does an understood intention become
 an automatic behavior, and how much of that can you run at once?**
 
+**Scope, before anything else.** This node is for *behavior under a recognisable cue* —
+what you do, in a moment you can learn to notice. Three boundaries follow, and a grove
+that crosses one silently will mislead its user:
+
+- **Not a substance-dependence protocol.** Where a target has a pharmacological or
+  clinical treatment literature, that literature dominates anything here; nicotine is the
+  clearest case (`sources.md` §9). This node can serve as an adjunct — mostly through
+  cue removal — but it is the second thing to read, not the first.
+- **Not a route to changing what you feel.** It governs the response, not the state behind
+  it. A target like "stop feeling defensive" has no cue and no behavior; see §3, and
+  `open-questions.md` §4 for the part that stays genuinely unresolved.
+- **Not a way to apply an idea.** "Live more stoically" names nothing detectable. If a
+  philosophy or a skill is to be trained here, it has to be cashed out first into one
+  situation and one thing you do in it.
+
 ---
 
 ## 1. Comprehension is a precondition, not a stage
@@ -20,9 +35,11 @@ The consequence for design: **no grove should measure itself in material consume
 unit of progress is a *rep* — an instance where the old response was about to fire and a
 specified different one went out instead.
 
-## 2. The scarce resource is detection, not willpower
+And a rep that is not written down is an anecdote. Recording progress is not bookkeeping
+bolted onto the protocol; it carries its own effect on attainment, larger when the record
+is physical rather than mental (`sources.md` §8). The log is an ingredient.
 
-This is the most important correction this node makes to the folk model.
+## 2. The scarce resource is detection, not willpower
 
 The intuitive story is a willpower tank: self-control burns a finite fuel, so parallel
 changes drain it and collapse. That story is empirically dead (`sources.md` §1 —
@@ -46,6 +63,12 @@ cannot see:
 A sprint is therefore *one active target plus as many passive supports as you can
 arrange* — and the passive ones are underrated precisely because they feel like cheating.
 They are not cheating; removing a cue is a better outcome than winning a fight with it.
+
+**Hold the number loosely.** The willpower model it replaces is dead, but "exactly one"
+is this node's own ruling on its own argument, not a finding — graded **C** in
+`sources.md` §1, where the nearest comparison evidence sits. The *asymmetry* between
+active and passive is the durable part; the integer is a default worth departing from
+with a stated reason.
 
 ## 3. Rewire a cue→response pair, never a trait
 
@@ -72,6 +95,12 @@ cue.
 
 "Stop doing X" leaves the cue firing with nothing to answer it, so the old response wins
 by default. Every target needs a named replacement, pre-decided, available under load.
+
+This one is stronger than a design preference. A plan phrased as a negation — "when X,
+then I will *not* do Y" — produces an ironic rebound that *strengthens* the habit, and the
+rebound is largest exactly where it hurts most, on habits that are already strong
+(`sources.md` §2). A negated target is not a weak version of the technique. It is the
+version that moves you backwards.
 
 The mechanism with the best evidence in this entire node is the **if-then anchor**
 (implementation intentions): specify trigger and response in advance, in concrete terms,

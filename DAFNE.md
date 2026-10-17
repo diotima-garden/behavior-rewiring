@@ -11,7 +11,9 @@ understood intention becomes an automatic behavior, and how much of that can be 
 once. It holds theory, evidence grades, and reusable protocols; it holds no practice and
 no logs.
 
-Start with `./principles.md`. It is the stance everything else serves, and it is short.
+Start with `./principles.md`. It is the stance everything else serves, and it is short —
+including its scope block, which rules three common targets out of bounds (substance
+dependence, changing what you feel, and "applying" an idea that names no cue).
 
 ## Files
 

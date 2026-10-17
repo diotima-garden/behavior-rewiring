@@ -10,6 +10,14 @@ explicit decision at the end.
 **Grounded in:** `principles.md` §2 (detection load is the budget), §3 (cue→response
 pairs), §4 (substitute, don't suppress), §6 (nights are inside the protocol).
 
+**Not original, and that is good news.** Its two load-bearing moves — train detection
+first, then attach an incompatible response to the cue — are the core components of habit
+reversal training, a clinical treatment with a meta-analysis behind it (`sources.md` §7,
+d ≈ 0.80). The validated evidence is in body-focused repetitive behaviors under low
+arousal, so this is convergence on the mechanism, not a licence to claim the same effect
+for a social cue. Treat it as the nearest validated analogue and keep the ceiling
+statement below honest.
+
 ---
 
 ## Shape

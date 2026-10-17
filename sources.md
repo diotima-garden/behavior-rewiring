@@ -29,6 +29,19 @@ re-grounds it in detection load, which also explains the active/passive asymmetr
 fuel model cannot. Anything in a child grove that reasons about "spending willpower,"
 decision fatigue, or doing hard things before the tank drains is inheriting a dead model.
 
+**But the surviving conclusion carries its own, much weaker grade — C.** "One active
+target at a time" is not a tested finding. It is a design heuristic this node rules on a
+detection argument of its own construction, and it should be read as such. The nearest
+evidence is the simultaneous-versus-sequential comparison in multiple health behaviour
+change (James et al., *Preventive Medicine* 89 (2016), 211–223 — systematic review of 6
+randomised trials): both
+approaches beat control, neither beat the other, two trials favoured sequential on smoking
+and one favoured simultaneous on fat intake. That corpus is planning-and-procurement
+behaviour rather than in-the-moment interception, so it neither confirms nor refutes the
+rule for our case. Weak convergent support only: habit reversal training (§7) is
+single-target by construction and works. A grove may depart from the one-target rule with
+a stated reason; it is not quoting a result when it follows it.
+
 ## 2. If-then anchors (implementation intentions) — **A**
 
 **The claim:** pre-specifying "when situation X arises, I will do Y" substantially raises
@@ -45,7 +58,25 @@ the strongest results come from behaviors with crisp, externally visible cues
 the harder case and under-represented in that corpus. Direction: solid. Magnitude for
 interception specifically: assume less.
 
-**This is the single best-evidenced lever in this node.** When in doubt, build the anchor.
+**The form matters, and getting it wrong backfires — A.** An anchor phrased as a negation
+("when X, then I will *not* do Y") does not merely underperform; it produces ironic
+rebound, strengthening the very habit it names, and the effect is largest when the habit
+is strong. A replacement anchor ("when X, then I do Z") does not. Adriaanse et al.,
+*Personality and Social Psychology Bulletin* 37(1) (2011), "Planning What Not to Eat," and
+the companion 37(4) (2011), "Breaking Habits With Implementation Intentions." This is the
+evidence under `principles.md` §4, and it is the most actionable finding in this file: a
+target written as "stop doing X" is not a weak version of the technique, it is the
+counterproductive version.
+
+**Magnitude shrinks sharply in addictive behaviour — B.** McWilliams et al.,
+*Health Psychology* (2019), meta-analysis of implementation intentions for smoking
+cessation: OR 1.70, roughly 10.7% quit versus 4.9% in controls — real, but a long way from
+a solution. *Drug and Alcohol Dependence* (2020), implementation intentions for substance
+use reduction: g ≈ 0.31 for smoking, with reported effects across 0.14–0.32. Against the
+pooled d ≈ 0.65 above, the lever is about half strength in this domain. See §9.
+
+**This is the single best-evidenced lever in this node.** When in doubt, build the anchor —
+as a replacement, never as a negation.
 
 ## 3. Habit formation: cue-bound, slow, sleep-stabilized — **A/B**
 
@@ -62,6 +93,11 @@ taking months. Two softeners the famous number usually sheds: the median comes f
 **39 participants whose curves fit the model** (82 of 96 gave analysable data at all), and
 the behaviors were easy daily acts in a fixed context — generous conditions relative to
 social interception. The range is the finding; the median is the part that got famous.
+
+The number has since held up at scale: Singh et al., *Healthcare* 12(23):2488 (2024), a
+systematic review and meta-analysis of 20 studies and 2,601 participants, reports medians
+of **59–66 days** with an individual spread of **4–335 days**. Same shape, wider spread,
+same lesson — quote the range.
 
 **Sleep consolidation — B, with the mechanism downgraded.** Sleep-dependent consolidation
 of procedural/motor skill is well established (Walker & Stickgold, *Annu. Rev. Psychol.*
@@ -115,10 +151,9 @@ past a year. Rehearsing under manufactured arousal is a real, evidenced route to
 
 **Transfer to our medium — B at best.** That corpus is clinician-led role-play, graded
 exposure, and VR with genuine physiological presence. A text chat graded by an LLM is the
-lightest and least validated point on that spectrum. The consuming grove already states
-this gap explicitly (`social-dynamics/research/does-low-stakes-simulation-build-boundary-
-skills.md`) and the honest position is: *mechanism well evidenced, our implementation
-unvalidated.*
+lightest and least validated point on that spectrum. The first consumer records this gap
+explicitly in its own research notes, and the honest position is: *mechanism well
+evidenced, our implementation unvalidated.*
 
 **Embodied practice — C.** That physical disciplines change people faster than reading is
 plausible and consistent with §5's arousal argument, but the specific comparison is
@@ -131,6 +166,66 @@ describes short-term storage, not a day-long monitoring budget, and importing it
 to "how many habits can I track" is an analogy rather than a result. What does carry: a
 primed, specific expectation beats diffuse vigilance, and simultaneous monitoring of many
 distinct triggers degrades each. `principles.md` §2 uses the direction, not the number.
+
+## 7. Habit reversal training — **A in its own domain, untested in ours**
+
+**The claim:** the clinical treatment for unwanted repetitive behaviors is *awareness
+training* followed by *competing response training* — teach the person to detect the
+behavior's earliest signs, then have them perform an incompatible response on that cue.
+
+**Source:** Bate et al., "The efficacy of habit reversal therapy for tics, habit
+disorders, and stuttering: A meta-analytic review," *Clinical Psychology Review* 31(5)
+(2011) — 18 studies, N = 575, **d ≈ 0.80** against control at final post-treatment, with
+effects holding across most moderator levels.
+
+**Why it belongs here:** those two components are `protocols/single-target-sprint.md`,
+arrived at independently. A node that assembles a protocol from first principles and lands
+on a treatment with a 40-year clinical record has converged on something real, and should
+say so rather than present the protocol as its own invention.
+
+**The boundary, stated honestly.** The tested set is tics, stuttering, nail-biting,
+thumb-sucking, temporomandibular disorder and oral-digital habits — body-focused
+repetitive behaviors, largely under low social arousal, which are mostly *acquisition*
+problems in §5's sense. Interception under interpersonal pressure is a *performance*
+problem, and this node's own §4 says domain transfer is the thing not to assume. So: HRT
+is convergent validation of the two components, not evidence that a sprint works on a
+social cue. Full HRT also carries contingency management and generalization training,
+which the sprint does not. Nearest validated analogue; the extension is untested.
+
+## 8. Logging the reps — **A**
+
+**The claim:** recording progress toward a goal raises attainment, independently of
+whatever else is being done.
+
+**Source:** Harkin et al., "Does monitoring goal progress promote goal attainment? A
+meta-analysis of the experimental evidence," *Psychological Bulletin* 142(2) (2016),
+198–229 — 138 studies, N ≈ 19,951. Monitoring interventions raised monitoring frequency
+(d+ ≈ 1.98) and goal attainment (**d+ ≈ 0.40**). Larger effects when progress was
+**physically recorded** or **reported publicly**.
+
+**Why it matters here:** the catch-log is not bookkeeping attached to the protocol. It is
+an active ingredient with its own effect size, and the two moderators argue for writing
+the line down rather than keeping a mental tally. It is also the one part of this node that
+produces evidence instead of consuming it — see `open-questions.md` §1.
+
+## 9. Substance dependence — **out of scope, and why**
+
+Not a grade on a claim but a boundary on this node's applicability, placed here because it
+rests on evidence.
+
+For nicotine dependence the pharmacological route dominates anything a detection protocol
+offers. Cochrane component network meta-analyses (Lindson et al., 2023) put six-month
+abstinence at roughly 10–19 per 100 for nicotine e-cigarettes, varenicline and cytisine,
+with no clear difference between them; unaided attempts run at about 3–5% per year. Against
+that, §2's own best lever manages OR 1.70 in this domain. A behavior protocol can be a
+sensible *adjunct* — the cue-removal half of `principles.md` §2 transfers fine — but a
+grove that frames a physically dependent substance habit as primarily a detection problem
+is giving its user the weaker half of the available answer, and should say which half it
+is.
+
+The wider point for siblings: before mounting this node on a target, check whether that
+target has a treatment literature of its own. Where one exists, this node is the second
+thing to read, not the first.
 
 ---
 
