@@ -21,8 +21,9 @@ confidently wrong advice about the second.
 
 ## 2. The seed source — and its serious caveat
 
-A local, **unversioned** PDF sits at the garden root: `../neuroplasticity.pdf`
-(i.e. `$DIOTIMA_GARDEN/neuroplasticity.pdf`). It is the back half of a personal
+A local, **unversioned** PDF sits at the garden root:
+`$DIOTIMA_GARDEN/neuroplasticity.pdf` (the garden root is not itself a repo, which is
+why the file stays unversioned where it is). It is the back half of a personal
 conversation with Gemini and it is the reason this node exists.
 
 Two hard rules about it:
@@ -61,6 +62,14 @@ inoculation, sleep-dependent consolidation. Those literatures, not the PDF, are 
 this node should end up citing.
 
 ## 3. What to build
+
+**Before editing: know which checkout you are in.** This repo is mounted as a
+`parents/` submodule by each grove that consumes it, so several working copies of it
+exist at once and none of them is canonical — `origin` is. Whichever copy you work in,
+finishing means: commit, push to `origin`, then in each consuming grove bump the
+submodule pointer (`git -C <grove> submodule update --remote parents/behavior-rewiring`,
+then commit the pointer change there). Editing inside a submodule checkout and stopping
+leaves the work invisible to everyone else.
 
 Work in this order; stop when it's useful rather than when it's complete.
 
